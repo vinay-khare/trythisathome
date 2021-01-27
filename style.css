@@ -1,0 +1,206 @@
+@font-face {
+  font-family: "cornerstone";
+  src: url(https://cdn.glitch.com/1b5587b8-5576-40b0-8b61-21415f10c206%2FCORNERSTONE%20(
+      1
+    ).TTF?v=1608981179171);
+  font-style: normal;
+}
+/* General Styling */
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  background-image: url('https://cdn.glitch.com/ba14dc28-fa3d-4b2a-903a-1c833ac79f20%2FYellow%202k%20grid.png?v=1610871220370');
+}
+
+/* Button Styling */
+.btn {
+  border: none;
+  background-color: rgb(65, 174, 236);
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  transition: all 500ms ease;
+}
+
+#title {
+  color: black;
+  font-family: "cornerstone";
+  font-size: 400%;
+  text-align: center;
+  margin-top: 4%;
+  justify-content: center;
+}
+
+#experienceLink {
+  padding-right: 10%;
+  padding-left: 10%;
+  opacity: 0;
+  margin-top: 5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.experienceTitle {
+  color: white;
+  letter-spacing: 1px;
+  font-family: "cornerstone";
+  font-size: 150%;
+  text-align: center;
+  margin: 1%;
+}
+
+.column {
+  background-color: black;
+  opacity: 0.75;
+  float: left;
+  width: 30%;
+  margin: 1.666%;
+  border-style: solid;
+  border-color: black;
+  border-width: thick;
+}
+
+.column:hover {
+  opacity: 1;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#intro {
+  color: black;
+  letter-spacing: 1px;
+  font-family: "cornerstone";
+  font-size: 200%;
+  text-align: center;
+  margin-top: 1%;
+  padding-right: 10%;
+  padding-left: 10%;
+  justify-content: center;
+  display: block;
+  opacity: 0;
+}
+
+.backBtn {
+  color: black;
+  letter-spacing: 1px;
+  font-family: "cornerstone";
+  font-size: 100%;
+  text-align: left;
+  margin-top: 1%;
+  padding-right: 10%;
+  padding-left: 1%;
+  justify-content: left;
+  display: block;
+}
+
+.iframe {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.experience {
+  background-color: rgb( 247,243,6 );
+  margin: 2%;
+  width: 96%;
+  height: 90%;
+  overflow: hidden;
+  border-style: solid;
+  border-color: black;
+  border-width: thick;
+}
+
+.experience1Upload {
+  
+  display: inline-block;
+  background-color: #11c678;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin: 2%;
+  position: absolute;
+  left: 25%;
+  top: 90%;
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  color: black;
+  font-family: "cornerstone";
+  font-size: 200%;
+  
+  border-style: solid;
+}
+
+#upload {
+  border-radius: 10px;
+  border-style: solid;
+  position: relative;
+  margin: auto;
+  margin-left: 2%;
+  width: 50%;
+  height: 90%;
+  float: left;
+  
+}
+
+#denseOutput{
+  overflow: auto;
+  position: relative;
+  border-radius: 10px;
+  border-style: solid;
+  margin-right: 2.5%;
+  width: 40%;
+  height: 90%;
+  float: right;
+}
+
+#denseOutput::-webkit-scrollbar {
+    width: 12px;
+}
+
+#denseOutput::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+#denseOutput::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); 
+}
+
+
+
+
+#imageCanvas1{
+  border-radius: 10px;
+  border-style: solid;
+  position: relative;
+  margin: auto;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#captions{
+  
+  list-style: square;
+  font-family: "cornerstone";
+  font-size: 150%;
+  color: black;
+}
