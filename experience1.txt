@@ -1,0 +1,16 @@
+  <div class="experience">
+      <p class="backBtn">Back</p>
+      
+      <div id="upload">
+        <canvas id="imageCanvas1"></canvas>
+      </div>
+
+      <div id="denseOutput">
+        <section class="caption">
+          <ul id="captions"></ul>
+        </section>
+        </div>
+      
+      <input type="file" id="imageLoader" name="imageLoader" hidden />
+      <label class="experience1Upload" for="imageLoader">Upload image</label>
+      </div>
